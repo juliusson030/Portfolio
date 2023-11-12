@@ -1,0 +1,54 @@
+body{
+    background-color:grey;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-image: url(Untitled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.thenavs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navs{
+    display: flex;
+    
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    
+}
+li>a{
+    text-decoration: none;
+    color:black;
+    cursor: wait;
+}
+li>a:hover{
+    background-color: black;
+    color: white;
+}
+.mainsection{
+    text-align: center;
+}
+button{
+    padding: 5px 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+button > a{
+    color: red;
+    text-decoration: none;
+
+}
+button >a:hover{
+    color: ghostwhite;
+    background-color: grey;
+}
